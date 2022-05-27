@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -26,6 +27,13 @@ Route::get('/welcome', function ()
 });
 
 // 3- Call controller function
+Route::get(url('/'), [HomeController::class, 'index'])->name('home');
+
+// 4- Route->Controller->View
+Route::get('/test',[HomeController::class, 'test'])->name('test');
+
+// 5- Route with parameters
+Route::get('/parameter/{id}',[HomeController::class, 'parameter'])->name('parameter');
 
 
 Route::get('/', function () {
