@@ -44,7 +44,7 @@ Route::get('/admin', function ()
 // Route test 2
 Route::get('/admin/abc', function ()
 {
-    return 'Derinlik içi ';
+    return 'Derinlik için ';
 });
 
 Route::get('/', function () {
