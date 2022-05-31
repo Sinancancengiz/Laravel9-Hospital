@@ -35,6 +35,7 @@ Route::get('/test',[HomeController::class, 'test'])->name('test');
 // 5- Route with parameters
 Route::get('/parameter/{id}',[HomeController::class, 'parameter'])->name('parameter');
 
+// Route test
 
 Route::get('/', function () {
     return view('welcome');
