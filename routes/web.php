@@ -26,7 +26,7 @@ Route::get('/welcome', function ()
     return view('welcome');
 });
 
-// 3- Call controller functionn
+// 3- Call controller function
 Route::get(url('/'), [HomeController::class, 'index'])->name('home');
 
 // 4- Route->Controller->View
