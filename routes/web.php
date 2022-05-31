@@ -20,7 +20,7 @@ Route::get('/hello', function ()
     return 'Hello';
 });
 
-// 2- Call view in routee
+// 2- Call view in route
 Route::get('/welcome', function ()
 {
     return view('welcome');
