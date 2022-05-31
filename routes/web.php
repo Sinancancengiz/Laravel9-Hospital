@@ -41,6 +41,12 @@ Route::get('/admin', function ()
     return 'Hello s';
 });
 
+// Route test 2
+Route::get('/admin', function ()
+{
+    return 'Hello s';
+});
+
 Route::get('/', function () {
     return view('welcome');
 });
