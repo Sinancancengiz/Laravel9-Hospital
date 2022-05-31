@@ -20,13 +20,13 @@ Route::get('/hello', function ()
     return 'Hello';
 });
 
-// 2- Call view in route
+// 2- Call view in routee
 Route::get('/welcome', function ()
 {
     return view('welcome');
 });
 
-// 3- Call controller function
+// 3- Call controller functionn
 Route::get(url('/'), [HomeController::class, 'index'])->name('home');
 
 // 4- Route->Controller->View
