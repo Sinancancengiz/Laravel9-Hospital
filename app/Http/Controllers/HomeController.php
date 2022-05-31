@@ -21,6 +21,6 @@ class HomeController extends Controller
     {
         echo "Parameter 1: ", $id;
         echo "Parameter 2: ", $id;
-        echo "Parameter 2: ", $id;
+
     }
 }
