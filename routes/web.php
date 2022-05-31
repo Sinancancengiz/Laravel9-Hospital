@@ -42,9 +42,9 @@ Route::get('/admin', function ()
 });
 
 // Route test 2
-Route::get('/admin', function ()
+Route::get('/admin/abc', function ()
 {
-    return 'Hello s';
+    return 'Derinlik için ';
 });
 
 Route::get('/', function () {
