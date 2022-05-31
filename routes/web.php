@@ -29,7 +29,7 @@ Route::get('/welcome', function ()
 // 3- Call controller function
 Route::get(url('/'), [HomeController::class, 'index'])->name('home');
 
-// 4- Route->Controller->View
+// 4- Route->Controller->Vieww
 Route::get('/test',[HomeController::class, 'test'])->name('test');
 
 // 5- Route with parameters
