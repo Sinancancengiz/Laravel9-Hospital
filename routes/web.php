@@ -36,6 +36,10 @@ Route::get('/test',[HomeController::class, 'test'])->name('test');
 Route::get('/parameter/{id}',[HomeController::class, 'parameter'])->name('parameter');
 
 // Route test
+Route::get('/admin', function ()
+{
+    return 'Hello s';
+});
 
 Route::get('/', function () {
     return view('welcome');
