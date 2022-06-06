@@ -19,6 +19,6 @@ class HomeController extends Controller
 
     public function parameter($id)
     {
-        echo "Parametere 1: ", $id;
+        echo "Parameter 1: ", $id;
     }
 }
